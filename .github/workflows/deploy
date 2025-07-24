@@ -23,7 +23,7 @@ jobs:
       run: pnpm install --frozen-lockfile
 
     - name: Build project
-      run: pnpm build  # 替换为你的构建命令
+      run: pnpm install  # 替换为你的构建命令
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
